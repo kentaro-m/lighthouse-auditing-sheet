@@ -1,15 +1,15 @@
 {
   "name": "lighthouse-auditing-sheet",
   "version": "1.0.0",
-  "description": "",
+  "description": "A job which audits a page using Google Lighthouse and write results to Google Spreadsheets.",
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts",
     "build": "tsc"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Kentaro Matsushita",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^14.14.6",
     "ts-node": "^9.0.0",
